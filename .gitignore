@@ -205,3 +205,22 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# Append these lines to the existing .gitignore file
+
+# Data and Models (NEVER commit these)
+data/
+models/
+*.pth
+*.bin
+*.pt
+
+# Environment & Caches
+.env
+__pycache__/
+.ipynb_checkpoints/
+
+# IDE specific
+.vscode/
+.idea/
