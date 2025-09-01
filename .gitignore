@@ -209,8 +209,7 @@ __marimo__/
 
 # Append these lines to the existing .gitignore file
 
-# Data and Models (NEVER commit these)
-data/
+# Models (NEVER commit these)
 models/
 *.pth
 *.bin
